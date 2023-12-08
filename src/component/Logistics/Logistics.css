@@ -22,7 +22,7 @@
 .fileUpload{
     display: flex;
     flex-direction: row;
-    align-items:end;
+    align-items:flex-end;
 }
 
 .fileUpload p {
@@ -33,4 +33,18 @@
     font-weight: 300;
     line-height: normal;
     width: 103px;
+}
+
+#date{
+    height: 45px;
+    width: 206px;
+}
+
+.ll{
+    margin-right: 200px;
+    padding: 0;
+}
+
+.box3 select, .box3 input{
+    width: 170px;
 }
