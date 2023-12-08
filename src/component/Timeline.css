@@ -1,0 +1,48 @@
+.timelineBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    border-radius: 50%;
+    width: 80px;
+    height: 75px;
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #000;
+    color: #000;
+    font: 32px Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+  }
+
+  .highlighted{
+    /* add highlighted color */
+  }
+
+  .line{
+    width: 247px;
+    margin: 0;
+    border: 2px solid;   
+  }
+
+  .text {
+    margin-top: 28px;
+    width: 203px;
+    height: 33px;
+    position: absolute;
+    width: auto;
+  }
+  
+  .text .text-wrapper {
+    font-family: "Open Sans-Light", Helvetica;
+    font-weight: 300;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
